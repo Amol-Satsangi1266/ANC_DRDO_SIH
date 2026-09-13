@@ -411,4 +411,4 @@ The model is a working prototype, not a production system. Known limits:
 - **Stateful streaming.** Retrain on shorter windows (e.g., 20–50 ms) with an LSTM or causal dilated convolutions for sub-30 ms latency.
 - **Quantization.** INT8 quantization for a 4× smaller model and faster inference on edge hardware.
 - **Fine-tune on live data.** Record room tone + live speech, add as new noise class, fine-tune for in-domain robustness.
-- **Hardware integration.** Port to an ESP32-S3 with a USB Audio Class interface for a fully embedded denoiser.
+- **Hardware integration.** Port to an edge device that can handle ml compute, for instance, rasberry pi.
